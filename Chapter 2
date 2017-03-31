@@ -1,0 +1,12 @@
+//  Looping a triangle
+
+function triangle (x) {
+  var line = "";
+  for (i = 0; i < x; i++){
+    line += "#";
+    console.log (line);
+  }
+}
+
+triangle (7);
+
